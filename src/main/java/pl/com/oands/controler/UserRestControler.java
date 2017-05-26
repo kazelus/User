@@ -34,6 +34,7 @@ public class UserRestControler {
 	public @ResponseBody void deleteUser(@PathVariable int id) {
 		userService.deleteUser(id);
 	}
+	//f
 	
 	@RequestMapping(value = "/user/delete", method = RequestMethod.DELETE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody void deleteAllUser() {
